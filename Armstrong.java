@@ -28,6 +28,7 @@ public class Armstrong
             }
             arm = arm+mul;
             x=x/10;
+            mul=1;
         }
         if(arm==n)
         {
